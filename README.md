@@ -1,2 +1,2 @@
 # Spil-Spil
-Wassup f'uckers, welcome to our repository
+Wassup f'ckers, welcome to our repository
