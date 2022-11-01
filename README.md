@@ -9,4 +9,3 @@ Respawn
 eat rats
 speed
 (område bliver mindre)
-
