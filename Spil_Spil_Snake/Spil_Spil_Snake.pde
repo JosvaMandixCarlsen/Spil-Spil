@@ -1,17 +1,36 @@
-
+  PShape t;
+  float x= 100;
+  float y=100;
+  
+  
 void setup(){
-  size(600,600);
+  size(600,600,P3D);
+  t = loadShape("T-95.obj");
+
+
   textAlign(CENTER);
 }
 
 void draw(){
   background(250);
-  frameRate(12);
-  println(mouseX+":"+mouseY);
+  
+  //  frameRate(12); // skal skal være i setup!! men det er HARAM at bruge frameRate
+  //println(mouseX+":"+mouseY);
   lines();
   borders();
   
+   
+  lights();
+ 
+  drawTank();
+  
 }
+
+void drawTank(){
+  shape(t,x,y);
+}
+
+
 void borders(){
   stroke(0);
   strokeWeight(2);
